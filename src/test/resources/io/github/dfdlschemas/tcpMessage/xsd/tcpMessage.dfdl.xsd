@@ -3,11 +3,16 @@
 <xs:schema
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:dfdl="http://www.ogf.org/dfdl/dfdl-1.0/"
-  xmlns:tcpHdr="urn:io.github.dfdlschemas.tcpMessage"
+  xmlns:tcpHdr="urn:dfdlschemas.github.io:schemas:dfdl:tcpMessage:tcpHdr"
   elementFormDefault="unqualified">
 
+<!--
+This schema has no target namespace because it defines global elements
+and we prefer all elements to have no namespace whether global or local.
+-->
+
   <xs:import
-    namespace="urn:io.github.dfdlschemas.tcpMessage"
+    namespace="urn:dfdlschemas.github.io:schemas:dfdl:tcpMessage:tcpHdr"
     schemaLocation="/io/github/dfdlschemas/tcpMessage/xsd/tcpMessageType.dfdl.xsd"/>
 
   <xs:annotation>

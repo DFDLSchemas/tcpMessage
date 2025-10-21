@@ -5,8 +5,8 @@
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:fn="http://www.w3.org/2005/xpath-functions"
   xmlns:dfdl="http://www.ogf.org/dfdl/dfdl-1.0/"
-  xmlns:tcpHdr="urn:io.github.dfdlschemas.tcpMessage"
-  targetNamespace="urn:io.github.dfdlschemas.tcpMessage"
+  xmlns:tcpHdr="urn:dfdlschemas.github.io:schemas:dfdl:tcpMessage:tcpHdr"
+  targetNamespace="urn:dfdlschemas.github.io:schemas:dfdl:tcpMessage:tcpHdr"
   elementFormDefault="unqualified">
 
   <include schemaLocation="/io/github/dfdlschemas/tcpMessage/xsd/baseFormat.dfdl.xsd" />
